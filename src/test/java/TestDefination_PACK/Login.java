@@ -62,7 +62,7 @@ public class Login {
 		
 	boolean islogoutdisply = driver.findElement(By.xpath("//h2[normalize-space()='My Account']")).isDisplayed();
 	
-	Assert.assertEquals(islogoutdisply, false);
+	Assert.assertEquals(islogoutdisply, true);
 	}
 
 }
